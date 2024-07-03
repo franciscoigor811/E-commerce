@@ -1,0 +1,46 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+.btn-show-pass {
+  /*font-size: 15px;*/
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  top: 16px;
+  right: 0;
+  padding-right: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-show-pass:hover {
+  color: #4bcf99;
+  color: -webkit-linear-gradient(left, #FF00FF , #FF00FF  );
+  color: -o-linear-gradient(left, #FF00FF  , #FF00FF  );
+  color: -moz-linear-gradient(left, #FF00FF  , #FF00FF  );
+  color: linear-gradient(left, #FF00FF  , #FF00FF );
+}
+
+.btn-show-pass.active {
+  color: #4bcf99;
+  color: -webkit-linear-gradient(left, #FF00FF , #FF00FF );
+  color: -o-linear-gradient(left, #FF00FF , #FF00FF );
+  color: -moz-linear-gradient(left, #FF00FF , #FF00FF );
+  color: linear-gradient(left, #FF00FF  , #FF00FF );
+}
+
+.validate-input {
+  position: relative;
+}
